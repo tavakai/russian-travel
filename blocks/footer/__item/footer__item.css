@@ -1,0 +1,8 @@
+.footer__item {
+    display: inline;
+    padding-right: 18px;
+}
+
+.footer__item:last-child {
+    padding: 0;
+}

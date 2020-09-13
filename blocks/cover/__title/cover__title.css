@@ -1,0 +1,17 @@
+.cover__title {
+    width: 560px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    /* or 106% */
+
+    text-align: center;
+    padding-top: 245px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+}

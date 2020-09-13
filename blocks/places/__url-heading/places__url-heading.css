@@ -1,0 +1,13 @@
+.places__url-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    padding: 0px 0px 12px 0px;
+    margin: 0;
+}
