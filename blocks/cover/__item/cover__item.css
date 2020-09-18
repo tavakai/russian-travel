@@ -1,0 +1,51 @@
+.cover__item {
+    position: relative;
+    text-align: center;
+    min-height: 740px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: url('../../../images/Pointer.svg'), pointer;
+    z-index: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover__item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(42, 44, 47, 0.3);
+}
+
+.cover__item:hover::before {
+    background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__item {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__item {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cover__item {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__item {
+        min-height: 360px;
+    }
+}

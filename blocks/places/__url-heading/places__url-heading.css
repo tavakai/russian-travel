@@ -11,3 +11,9 @@
     padding: 0px 0px 12px 0px;
     margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .places__url-heading {
+        padding: 0px 16px;
+    }
+}

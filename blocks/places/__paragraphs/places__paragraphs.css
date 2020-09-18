@@ -5,3 +5,9 @@
 .places__paragraphs:nth-child(2) {
     padding-bottom: 24px;
 }
+
+@media screen and (max-width: 320px) {
+    .places__paragraphs {
+        padding: 0px 16px;
+    }
+}

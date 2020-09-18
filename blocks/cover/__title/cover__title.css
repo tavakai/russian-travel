@@ -1,5 +1,5 @@
 .cover__title {
-    width: 560px;
+    max-width: 560px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -8,10 +8,46 @@
     /* or 106% */
 
     text-align: center;
-    padding-top: 245px;
-    margin: 0 auto;
+    padding: 0;
+    margin: 245px 0px 0px 0px;
     display: block;
     text-decoration: none;
     color: #ffffff;
-    cursor: url('../../../images/Pointer.svg'), pointer;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__title {
+        margin: 245px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin: 195px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: 115px 0px 0px 0px;
+        font-size: 50px;
+        line-height: 1.04;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .cover__title {
+
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+
+        font-size: 32px;
+        line-height: 1.09;
+    }
 }

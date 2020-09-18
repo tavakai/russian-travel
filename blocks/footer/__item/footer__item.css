@@ -6,3 +6,13 @@
 .footer__item:last-child {
     padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__item {
+        padding: 0px 0px 32px 0px;
+    }
+
+    .footer__item:last-child {
+        padding: 0;
+    }
+}

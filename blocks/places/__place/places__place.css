@@ -20,9 +20,9 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 660px) {
     .places__place {
-        max-width: 288px;
+        max-width: 600px;
         grid-template-columns: 1fr;
         grid-column-gap: 28px;
     }
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 320px) {
     .places__place {
-        max-width: 288px;
+        max-width: 320px;
         grid-template-columns: 1fr;
         grid-row-gap: 32px;
     }

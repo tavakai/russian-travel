@@ -10,3 +10,9 @@
     color: #FFFFFF;
     cursor: url('../../../images/Pointer.svg'), pointer;
 }
+
+@media screen and (max-width: 320px) {
+    .places__link {
+        padding: 0px 16px;
+    }
+}
