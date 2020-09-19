@@ -10,7 +10,6 @@
 
 .header__lang-link:first-child {
   margin-right: 18px;
-  text-decoration-line: underline;
 }
 
 @media screen and (max-width: 425px) {

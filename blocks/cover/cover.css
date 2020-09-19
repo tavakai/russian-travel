@@ -6,7 +6,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 
@@ -32,15 +31,14 @@
 
 @media screen and (max-width: 550px) {
     .cover {
-        max-width: 500px;
-        min-height: 400px;
+        max-width: 550px;
+        min-height: 200px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .cover {
-        max-width: 400px;
-        min-height: 360px;
+        max-width: 425px;
     }
 }
 

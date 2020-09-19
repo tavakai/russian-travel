@@ -5,3 +5,9 @@
     margin: 0;
     align-self: end;
 }
+
+@media screen and (max-width: 320px) {
+    .places__website {
+        display: none;
+    }
+}

@@ -11,6 +11,10 @@
     cursor: url('../../../images/Pointer.svg'), pointer;
 }
 
+.places__link:hover {
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 320px) {
     .places__link {
         padding: 0px 16px;

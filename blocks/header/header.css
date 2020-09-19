@@ -1,7 +1,7 @@
 .header {
   max-width: 1184px;
   min-width: 320px;
-  padding: 28px 48px 0px 48px;
+  padding: 28px 0px 0px 0px;
   margin: 0 auto;
   box-sizing: border-box;
   display: flex;
@@ -13,20 +13,19 @@
   .header {
     max-width: 928px;
     width: 100%;
+    padding: 28px 24px 0px 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .header {
     max-width: 720px;
-    width: 100%;
+    padding: 16px 16px 0px 16px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
     max-width: 288px;
-    width: 100%;
-    padding: 16px 16px 0px 16px;
   }
 }

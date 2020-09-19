@@ -41,12 +41,6 @@
 
 @media screen and (max-width: 550px) {
     .cover__item {
-        min-height: 400px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .cover__item {
-        min-height: 360px;
+        min-height: 200px;
     }
 }

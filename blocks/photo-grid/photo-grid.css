@@ -26,7 +26,6 @@
 @media screen and (max-width: 425px) {
     .photo-grid {
         grid-template-columns: 1fr;
-        grid-gap: 16px;
         margin: 54px 16px 0px 16px;
     }
 }
@@ -35,6 +34,5 @@
     .photo-grid {
         grid-template-columns: 1fr;
         grid-gap: 12px;
-        margin: 54px 16px 0px 16px;
     }
 }
